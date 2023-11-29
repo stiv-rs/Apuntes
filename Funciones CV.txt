@@ -1,0 +1,134 @@
+
+Soy un apasionado desarrollador de software con más de 5 años de experiencia en el campo de la tecnología en pasises como Colombia, Brasil, México y España. Mi enfoque principal ha sido la creación de soluciones de software innovadoras y eficientes que mejoran la eficacia empresarial y la experiencia del usuario. Mi historial de éxito incluye la entrega puntual de proyectos de alto rendimiento y la colaboración efectiva con equipos multidisciplinarios.
+-------------------------- DIITAL --------------------------------------
+Funciones Técnicas:
++ Diseñar, desarrollar y mantener aplicaciones de software GESECO y GESTERAV que son esenciales para el funcionamiento eficiente del Ministerio de Salud y Sanidad.
++ Utilizar las versiones de Java 8,11, 17 para escribir código de alto rendimiento y seguro basado en principios S.O.L.I.D para el backend de las aplicaciones.
++ Utilizar el framework Spring Boot para crear aplicaciones Java robustas, escalables y de fácil mantenimiento.
++ Colaborar con el equipo de para diseñar y desarrollar interfaces de usuario atractivas y funcionales utilizando Angular.
++ Integrar diferentes sistemas y servicios para garantizar una comunicación fluida y eficiente entre los componentes del sistema de salud.
++ Diseñar y mantener bases de datos utilizando SQL Oracle, SQL postgres, Spring data JPA y JPQL asegurando la integridad, seguridad y rendimiento de los datos.
++ Identificar y solucionar problemas de rendimiento en las aplicaciones, bases de datos y consultas SQL para garantizar un funcionamiento eficiente.
++ Implementar prácticas de seguridad de datos sólidas para proteger la información confidencial y cumplir con las regulaciones de privacidad con JWT y LDAP.
++ Crear y mantener API RESTful para permitir la interoperabilidad de sistemas y la exposición de datos de manera segura.
++ Realizar tareas de mantenimiento, corrección de errores y actualizaciones periódicas en las aplicaciones existentes.
++ Realizar pruebas unitarias y de integración, así como depuración de código para garantizar la calidad del software con JUnit 4 y Postman.
++ Crear documentación técnica completa por medio de SWAGUER, incluyendo diagramas de arquitectura UML, manuales de usuario y guías de desarrollo.
++ Trabajar en estrecha colaboración con otros departamentos y equipos dentro del Ministerio de Salud y Sanidad para comprender las necesidades y requisitos del sistema.
++ Asegurarse de que las aplicaciones y sistemas cumplan con los estándares y regulaciones de salud y sanidad aplicables en España.
++ Mantenerse actualizado con las últimas tendencias y avances en tecnología y salud, y proporcionar capacitación cuando sea necesario.
++ Realizar estimaciones de proyectos o fucionalidades bajo metodos agiles, function Points, Use Case Points.
+
+Funciones de liderazgo técnico:
++ Supervisar el funcionamiento, el mantenimiento y la mejora continua de las aplicaciones informáticas críticas para el Ministerio de Salud y Sanidad.
++ Colaborar en la definición de la estrategia tecnológica a largo plazo, asegurando que las aplicaciones estén alineadas con los objetivos y las políticas del Ministerio.
++ Garantizar que las aplicaciones cumplan con las regulaciones y los estándares de seguridad de la salud y la sanidad aplicables en España.
++ Planificar y supervisar proyectos de desarrollo y actualización de aplicaciones, desde la concepción hasta la entrega, asegurando que se cumplan los plazos y los recursos asignados.
++ Colaborar con los usuarios finales y los stakeholders para identificar necesidades, recopilar requisitos y garantizar la satisfacción del cliente.
++ Abordar problemas técnicos y funcionales de las aplicaciones de manera efectiva y tomar decisiones informadas para su resolución.
++ Asegurar que exista documentación técnica completa y actualizada, incluyendo manuales de usuario, guías de operación y documentación de diseño.
++ Identificar y evaluar riesgos relacionados con las aplicaciones y proponer soluciones para mitigarlos.
++ Identificar oportunidades de mejora en los procesos relacionados con las aplicaciones y proponer mejoras para aumentar la eficiencia.
++ Mantenerme al tanto de las tendencias tecnológicas y evaluar nuevas tecnologías que puedan mejorar la infraestructura y las aplicaciones.
+
+------------------------ DATACENTER -------------------------------------
+Funciones Técnicas:
++ Diseñar, desarrollar y mantener aplicaciones de software para juegos y azar, asegurando la robustez, escalabilidad y seguridad.
++ Utilizar Java 8, 11, Spring Boot y JPA para crear aplicaciones de alto rendimiento y garantizar una gestión eficiente de datos en el backend.
++ Crear interfaces de usuario atractivas y funcionales utilizando Angular.
++ Diseñar, administrar y optimizar bases de datos SQL y postgres para garantizar un rendimiento óptimo y la integridad de los datos.
++ Versionamiento de código en GIT, GitLab, GitHub, CVS, por medio de GitBash o GitExtentions, asi como la recepción y movimiento de tareas en los CANVAS.
++ Implementar contenedores Docker para garantizar la portabilidad y la consistencia en el despliegue de aplicaciones.
++ Aplicar patrones de diseño como MVC, Factory, entre otros, para mejorar la calidad y la estructura del código.
++ Evaluar y mejorar la calidad del código utilizando SonarQube para identificar y abordar problemas técnicos.
++ Crear y utilizar diagramas UML para modelar la arquitectura y el diseño de las aplicaciones.
++ Pruebas unitarias y de regresión en aplicaciones y soluciones entregadas al área de QA y Pre producción.
++ Colaborar con el equipo de desarrollo y los stakeholders para definir historias de usuario y requisitos funcionales.
++ Gestionar todo el ciclo de desarrollo de software, desde la concepción hasta la entrega y el mantenimiento, siguiendo metodologías ágiles como Scrum o Kanban.
++ Aplicar los principios SOLID para crear un código escalable y mantenible.
++ Recibir y análizar historias de usuario para el posterior desarrollo de soluciones a los requerimientos del cliente.
++ Análisis de componentes de software para la solución de problemas de código fuente y mejora por medio de la decompilación de los mismos o procesos de debug.
++ Gestión y diligenciamiento de documentación con SWAGER de soporte de software asi como diagramación de soluciones y construcciones nuevas en UML.
+
+Funciones de Liderazgo Técnico:
++ Proporcionar orientación y liderazgo técnico al equipo de desarrollo, asegurando la alineación con las mejores prácticas y estándares de la industria.
++ Mentorar a otros miembros del equipo, compartir conocimientos y fomentar el crecimiento profesional.
++ Supervisar la revisión de código, proporcionando retroalimentación constructiva y garantizando la calidad del software.
++ Colaborar en la planificación técnica de proyectos, incluyendo estimaciones de tiempo y recursos.
++ Identificar oportunidades de mejora en procesos de desarrollo y proponer soluciones para aumentar la eficiencia y la calidad del software.
++ Abordar problemas técnicos complejos y tomar decisiones informadas sobre la arquitectura y la tecnología a utilizar.
++ Facilitar la comunicación entre equipos técnicos y no técnicos, asegurando una comprensión clara de los objetivos y avances del proyecto.
+
+----------------------------- FIRMWARE --------------------------------
+
++ Coordinar y supervisar la definición, documentación y seguimiento de los requerimientos en proyectos de desarrollo de software, haciendo uso del SDK Postilion basado en Java.
++ Gestionar el control de versiones del código fuente de manera efectiva utilizando Git Hub, garantizando la trazabilidad y el registro de cambios.
++ Utilizar herramientas de gestión ágil como JIRA y CONFLUENCE para planificar, ejecutar y dar seguimiento a proyectos de desarrollo de software, fomentando la colaboración y la transparencia.
++ Realizar pruebas unitarias exhaustivas de los requerimientos en entornos de desarrollo, asegurando que el código cumpla con los estándares de calidad y funcionamiento esperados.
++ Automatizar el proceso de integración de software y gestionar despliegues utilizando Jenkins, garantizando entregas confiables y eficientes.
++ Diseñar, desarrollar y mantener funcionalidades avanzadas para componentes relacionados con mensajería ISO 8583, contribuyendo a la optimización y modernización de sistemas financieros.
++ Desarrollar interfaces de intercambio de mensajería en la plataforma Postilion, facilitando la comunicación y la interoperabilidad entre sistemas, con un enfoque en la seguridad y la eficiencia.
+
+
+--------------------------- GML ---------------------------------------
++ Liderar la coordinación y asignación de recursos tanto humanos como técnicos para el proyecto de migración de servidores AIX a Linux, implementando tecnologías de virtualización y orquestación para garantizar un proceso eficiente y seguro.
++ Recepcionar, analizar y desarrollar soluciones basadas en historias de usuario, utilizando tecnologías de análisis de requerimientos y diseño de sistemas.
++ Utilizar la herramienta Agile Central para la gestión ágil de historias de usuario, aplicando metodologías ágiles como Scrum o Kanban para un seguimiento eficiente del desarrollo.
++ Realizar modificaciones en el código fuente de aplicaciones Java 8 y 11, incluyendo interacciones con bases de datos Oracle mediante PLSQL, aplicando buenas prácticas de desarrollo.
++ Gestionar el control de versiones del código fuente utilizando sistemas como CVS y GIT, alojando los repositorios en plataformas remotas como Gitlab para asegurar la colaboración y la trazabilidad.
++ Ejecutar procesos de validación y pruebas exhaustivas tanto del software como del código fuente de aplicaciones, aplicando técnicas de pruebas unitarias y de integración.
++ Aplicar técnicas de ingeniería inversa para comprender y documentar aplicaciones Java y bases de datos Oracle mediante PLSQL, facilitando la toma de decisiones técnicas.
++ Desarrollar consultas SQL avanzadas y procedimientos almacenados en bases de datos, optimizando el rendimiento y la eficiencia de las operaciones de datos.
++ Encargarse de la migración de aplicaciones desde un servidor Oracle Application Server (OAS) hacia un entorno basado en Tomcat, incluyendo la configuración y la adaptación técnica necesaria.
++ Colaborar en la preparación y presentación de informes ante comités directivos, proporcionando datos técnicos y análisis para la rendición de cuentas de proyectos.
++ Coordinar y gestionar la interacción con clientes internos y externos durante los procesos de despliegue y puesta en producción de desarrollos y proyectos, garantizando una transición exitosa.
+
+-------------------------- ALTRAN ----------------------------------
+
++Encargarse del desarrollo, diseño y mantenimiento de páginas web en modo de "infotecas" conectadas con SharePoint, utilizando lenguajes HTML5, CSS3 y JavaScript (JS) para asegurar una experiencia web moderna y funcional.
++ Diseñar y desarrollar formularios en Java 8 para el registro de actividades diarias y de correspondencia, optimizando la captura y gestión de datos de manera eficiente.
++ Colaborar en el proyecto Apolo, una iniciativa internacional de Gas Natural Fenosa, involucrando la implementación de software y hardware en el desarrollo de nuevos modelos de gestión comercial utilizando Salesforce.
++ Encargarse de la administración y configuración de sistemas, así como de aplicaciones complementarias que mejoran las capacidades de gestión empresarial del cliente.
++ Realizar el levantamiento de historias de usuario para identificar y definir los requisitos y objetivos del proyecto, facilitando la planificación y ejecución.
++ Analizar la información proporcionada por los clientes con el fin de tomar decisiones informadas durante la ejecución de las actividades en cada etapa del proyecto.
++ Crear informes detallados de gestión y avance del proyecto, así como preparar materiales formativos y de comunicación para garantizar una comunicación efectiva y la divulgación de resultados.
++ Llevar a cabo visitas a las empresas colaboradoras y realizar entrevistas en campo con los usuarios impactados por la implantación de soluciones tecnológicas derivadas de los proyectos, con el fin de evaluar el impacto y garantizar una implementación exitosa.
+
+
+--------------------- DIAN ----------------------------------
+
++Implementar el sistema SGDIAN
++Administrar el sistema SGD y configuración de sus diferentes módulos.
++Probar las nuevas funciones para verificar que actúen correctamente.
++Socializar en reuniones con stakeholders para la adquisición de reglas de negocio.
++Garantizar que todo el personal del proyecto reciba toda la información necesaria.
++Manejar las comunicaciones con los responsables del proyecto.
++Informar a todos los actores del proyecto sobre los avances o retrasos del mismo.
++Manejar las herramientas, los métodos, las métricas y los crono gramas maestros del proyecto.
++Administrar las oportunidades de mejora y los cambios que el proyecto exija sobre la marcha.
+
+---------------- DESPEGAR ---------------------------------
+
++Administrar el sistema de distribución global y periféricos del sistema para la optimización de datos 
++Orientar los procesos de formación según las necesidades detectadas en los procesos de evaluación, metodologías de aprendizaje, además de desarrollar programas estructurados para el área..
++Desarrollar contenido en simuladores con tecnologías ,Javascript, flash y SQL
++Planificar nuevos desarrollos que fortalecieran el área de formación de una manera más interactiva de acuerdo con las necesidades identificadas.
++Planificacar de desarrollos para la mejor disposición de la información que usaban los agentes de ventas.
+
+---------------- AVANZA --------------------------------
+
+Telefónica Telecom
++Distribuir bases de datos a los validadores de contratos de servicios en telefonía, internet y televisión.
++Actualizar estadísticas de ventas e instalaciones de servicio de telecomunicaciones.
++Planear el cumplimiento de cronogramas de trabajo y actividades. 
++Servicio al cliente post venta a clientes insatisfechos o con necesidad de otros servicios.
++Verificar y validar datos con clientes y central de conexiones para la instalación de servicios.
++Validar datos con centrales de riesgo para la adquisición de productos y servicios.
+ 
+LAN Airlines
++Servicio Post Venta en Vuelos
++Manejar y administrar bases de datos en Excel para vuelos y sus GDS’s.
++Realizar cambios, cancelaciones y reprogramaciones de vuelos a nivel nacional e internacional.
++Validar servicios especiales para vuelos nacionales e internacionales.
++Apoyar como coach en piso a la operación de Customer Service Vuelos y paquetes de despegar.com
+

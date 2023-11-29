@@ -1,0 +1,7 @@
+sudo apt update									| actualiza los paquetes.
+sudo apt install default-jre							| instala la JDK por defecto para esa version de ubuntu.
+sudo update-alternatives --display java				| Muestra donde quedo instalado JAVA.
+sudo nano /etc/environment						| pasa a la variable JAVA_HOME /usr/lib/jvm/java-17-openjdk-amd64/bin/java¨   .
+cat  /etc/lsb-release								| Muestra la distribucion de ubuntu.
+ab -t 60 -c 50 -k URLApp						| hace 50 peticiones en 60 segundos a la web.
+

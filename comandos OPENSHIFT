@@ -1,0 +1,43 @@
+minishift start --vm-driver virtualbox		| luego de descargar e instalar y levantar la maquina virtual inicia minishift.
+minishift stop		| detener la maquina virtual de minishift.
+minishift delete	| eliminar la maquina virtual de minishift.
+Builds --> Configuracion --> copiar URl --> RepoGit --> settings --> webhooks		| Despliegue ontinuo en openshift.
+Applications --> Deploys --> actions --> add autoescaler		| autoescalado en openshift.
+
+================================ desde la consola de comandos OC ================================
+Instalación de la utilidad de línea de comandos oc
+Podemos bajarnos la última versión del cliente desde la página de descargas. Y siguiendo las instrucciones que encontramos en Get Started with the CLI podemos instalar la herramienta en los distintos sistemas operativos.
+
+Por ejemplo para Linux Debian/Ubuntu, descomprimimos el fichero y copiamos el ejecutable oc en un directorio que este en el PATH.
+desde la consola web usuario --> Copy Login Command		|genera el comando para conectarse al cluster de la OC.
+oc delete project nomProyecto		|borrar proyecto de openshift.
+oc new-project versionImgBase~ULRProjGit --nomProyecto		| crea un nuevo proyecto en openshift.
+oc status						| estatus del proyecto.
+oc get bc						| info de los build.
+oc new-app --list 				| catalogo de imagenes.
+oc describe bc/nomProyecto		| detalle del build.
+oc get dc						| lista los deployment.
+oc describe dc/nomProyecto		|  detalle del deployment.
+oc get pods						| lista los pods.
+oc describe pod/nomPod			| detalle del pod.
+oc logs pod/nomPod				| logs del pod.
+oc get svc						| lista el service del pod.
+oc expose svc/nomProyecto		| crea la ruta url del projecto.
+oc get routes					| lista las rutas.
+oc delete pod/nomPod				| elimina el pod.
+oc scale dc nomDeploy --replicas=3	| escala el deployment a 3 pods.
+oc get pods -o wide				| ver los nodos donde se estan ejecutando los pods.
+oc start-build bc/nomDeploy		| inicia un nuevo deplyment.
+oc rollout undo dc/nomDeploy		| elimina los pods anteriores y crea uno nuevo con la version anterior.
+oc autoscale dc/nomDeploy --min 1 --max 2 --cpu-percent=20 | autoescalado automatico con minimo 1 pod y maximo 2, usanso 20% de la CPU.
+oc get hpa						| información del autoscale.
+oc rsh nomPod					| acceder al pod por sh.
+cd cms/data						| accede a la carpeta del data de la imagen mysql.
+pwd 							| muestra la ruta donde se encuentra la data se copia esa ruta para los volumes.
+oc get pvc						| lista los volumen.
+oc cp data nomPod:cms/			| copia el fichero data donde esta la BD con los datos y lo copia al pod en la carpeta cms del mismo.
+oc exec nomPod ls cms/data	 	| lista las BD en el fichero, comprueba si se copio la info.
+oc new-app --search mysql		| busca las imagenes de mysql disponibles en catalogo.
+oc new-app mysql-persistent -e MYSQL_USER=user MYSQL_PASSWORD=pass MYSQL_DATABASE=prueba --name mysql 	| crea un nuevo pod de mysql.
+ln -s /opt/app-root/src/wp-content/wp-config,php /opt/app.-root/src/wp-config.p$ exec usr/lebexec/s2i/run	| crea la url simbolica para que la BD siempre este activa.
+

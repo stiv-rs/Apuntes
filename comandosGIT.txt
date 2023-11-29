@@ -1,0 +1,24 @@
+git checkout -- documento con la ext						// nos lleva a la ultima version en el coomit de ese documento
+git checkout --.											// deja todo hasta el ultimo commit, se pierde los cambios o todo lo que se haya hecho en la rama
+git branch -d nombre rama 									// borra la rama
+git branch -d nombre rama -f 								// borra la rama forzadamente
+git branch 													// crea la rama
+git checkout -b nombre rama 								// crea la rama y nos posiciona en ella
+esc:wq! 													// sale de las pantallas de git
+git merge nombre rama										// se deeb estar en la rama master o en la que queremos hacer el merge y llamar a la que tiene lois cambios
+git tag nombre tag											// crear etiqueta commits especificos para tenerlos en cuenta
+git tag -d nombre tag										// borrar etiqueta commits especificos para tenerlos en cuenta
+git tag nombre tag -a nombre + hashCommit -m "mensaje"		// crear etiqueta para ese hash de commit especifico con un mensaje
+git show  nombre tag 										// muestra toda la info del tag creado
+git stash													// manda los cambios a un borrador
+git stash pop												// recupera los cambios guardados en el stash
+git stash list												// lista los stash 
+git stash clear												// borra los stash
+git stash apply hash stash									// recupera el stash que quedo con ese nombre
+git stash drop hash stash									// borra el stash que quedo con ese nombre
+git stash show hash stash									// muestra que cambio hay el stash que quedo con ese nombre
+git stash save "nombre que queremos dar al stash" 			// recupera el stash que quedo con ese nombre
+git stash list --stat										// muestra el listado de stashes con un poco mas de info
+git rebase nombre rama										// pasa los cpmmits al HEAD de la rama que se esta trabajando paralela a la de  master
+git rebase -i HEAD~3//#commits								// rebase interactivo tiene comandos para unir o cambiar nombres de commits etc con la tecla "a" se cambia la letra
+ssh-keygen -t rsa -c "mail asociado a git"					// crea una clave ssh y deja el fichero en la carpeta con la clave, en git se agrega via ssh po rlas setings

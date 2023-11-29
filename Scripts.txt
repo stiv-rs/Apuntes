@@ -1,0 +1,46 @@
+
+======================== script para extraer la cantidad de tablas, vistas, esquemas...etc ==================================
+
+SELECT
+ (SELECT COUNT(*) FROM all_tables) AS total_tablas,
+ (SELECT COUNT(*) FROM all_views) AS total_vistas,
+ (SELECT COUNT(*) FROM all_indexes) AS total_indices,
+ (SELECT COUNT(*) FROM all_sequences) AS total_secuencias,
+ (SELECT COUNT(*) FROM all_synonyms) AS total_sinonimos,
+ (SELECT COUNT(*) AS nombre_funcion FROM all_objects WHERE object_type = 'FUNCTION') AS TOTAL_funciones,
+ (SELECT COUNT(*) FROM all_procedures) AS total_procedimientos,
+ (SELECT COUNT(*) FROM all_objects WHERE object_type = 'PACKAGE') AS total_paquetes,
+ (SELECT COUNT(*) FROM all_triggers) AS total_triggers,
+ (SELECT COUNT(*) FROM all_users) AS total_esquemas,
+ (SELECT COUNT(*) FROM all_users) AS total_usuarios
+ --(SELECT COUNT(*) FROM all_roles) AS total_roles
+FROM dual;
+
+================================ script para insertar datos de prueba en la tabla de medidas ====================================
+INSERT INTO geseco_medidas VALUES (1, 'Medida prueba 1','Descripcion medida 1','20/03/2023' ,'21/03/2023',600,'Observaciones prueba 1','23/08/2023','ext.pesp','ext.pesp','21/03/2023',1,2); 
+INSERT INTO geseco_medidas VALUES (1, 'Medida prueba 2','Descripcion medida 2','20/06/2023' ,'21/06/2023',600,'Observaciones prueba 2','23/07/2023','ext.pesp','ext.pesp','21/03/2023',2,1);
+INSERT INTO geseco_medidas VALUES (1, 'Medida prueba 3','Descripcion medida 3','20/07/2023' ,'21/07/2023',600,'Observaciones prueba 3','23/08/2023','ext.pesp','ext.pesp','21/03/2023',1,3);
+=================================  TABLAS DE PERMISOS Y ACCESOS ====================================================
+
+select *from GESECO_PERMISOS_PERFIL;
+select *from GESECO_PERMISOS;
+select *from GESECO_PERFILES;
+select *from GESECO_MODULOS;
+select *from GESECO_ACTIVIDAD;
+
+MEADB	Eliminación de medidas adoptadas
+MEADC	Creación de medidas adoptadas 
+MEADE	Edición de medidas adoptadas
+MEADL	Consulta de medidas adoptadas
+=====================================================================================================================
+
+
+
+
+23 PLGC	Creación de planes de gestión de RRHH 	7
+24 PLGE	Edición de planes de gestión de RRHH	7
+25 PLGL	Consulta de planes de gestión de RRHH	7
+26 PLGB	Eliminación de planes de gestión de RRHH	7	  
+	  
+
+

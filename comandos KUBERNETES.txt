@@ -1,0 +1,49 @@
+==================== COMANDOS KUBERNETES ====================
+minikube help	| comandos de ayuda.
+minikube status	| estatus del minikube.
+minikube start	| inicia el minikube.
+minikube service msvc-usuarios --url	| muestra la url dek minikube para acceder a los servicios.
+minikube dashboard		| muestra la consola grafica de los KUBERNETES.
+
+kubectl help	| comandos de ayuda.
+kubectl create deployment mysql8 --image=mysql:8 --port=3306 -- dry-run=client -o yaml > deployment-mysql.yaml	| crear  el MANIFIESTO del deployment sin ejecutarlo
+kubectl get deployments	| listar los deployments.
+kubectl get pods	| listar lospods.
+kubectl describe pod nomPod	| validar el detalle del pod.
+kubectl logs nomPod	| ver logs del pod.
+kubectl delete deployment nomDeployment	| elimina deployments y de paso a los pods. 
+kubectl apply -f .\deployment-mysql.yaml	| agrega el archivo de manifest del deployment y corre el deployment.
+kubectl expose deployment mysql8 --port=3306 --type=ClusterIP	| expone el worker node al interior entre pods.
+kubectl expose deployment mysql8 --port=3306 --type=NodePort	| expone el worker node al exterior(internet) ,a los clientes que se quieran conectar.
+kubectl expose deployment mysql8 --port=3306 --type=LoadBalancer	| balancea la carga a internet es mejor y mas poderoso que el anterior.
+kubectl get services	| lista los servicios creados.
+kubectl get svc	| lista los servicios creados.
+kubectl describe service nomService		| ver detalle del service.
+kubectl create deployment msvc-usuarios --image=srodriguezs34/usuarios:latest --port=8001	| crea el deploy del microservicio usuarios con la imagen de dockerhub y lo inicia .
+kubectl expose deployment msvc-usuarios --port=8001 --type=LoadBalancer	| expone el servicio msvc-usuarios a la web.
+kubectl set image deployment msvc-usuarios usuarios=srodriguezs34/usuarios:latest	| le cambia el nombre a la imagen  del container que esta corriendo en el workernode.
+kubectl scale deployment msvc-usuarios --replicas=3		| escala el pod de el msvc-usuarios para tener mas instanias del microservicio "escalado horizontal".
+kubectl get service mysql8 -o yaml > svc-mysql.yaml		| crea el archivo de MANIFIESTO para el servicio de mysql.	
+kubectl delete -f .\deployment-usuarios.yaml				| borra el deployment de usuarios.
+kubectl get sc 	| lista los storage class que son clases de almacenamiento.
+kubectl get pv	| lista los persistent volumes que hay.
+kubectl get pvc	| lista los persistent volumes claim que hay.
+kubectl create clusterrolebinding admin --clusterrole=cluster-admin --serviceaccount=default:default 		| crea un cluster para los servicios con privilegios.
+
+======================== orden para crear todo conectado a AWS ========================
+
+1. kubectl create clusterrolebinding admin --clusterrole=cluster-admin --serviceaccount=default:default
+2. kubectl apply -f \configmap.yaml
+3. kubectl apply -f \secret.yaml
+4. kubectl apply -f .\mysql-pv.yaml
+5. kubectl apply -f .\mysql-pvc.yaml
+6. kubectl apply -f .\postgres-pv.yaml
+7. kubectl apply -f .\postgres-pvc.yaml
+8. kubectl apply -f .\deployment-mysql.yaml
+9. kubectl apply -f .\deployment-postgres.yaml
+10. kubectl apply -f .\svc-mysql.yaml
+11. kubectl apply -f .\svc-postgres.yaml
+12. kubectl apply -f .\deployment- cursos.yaml
+13. kubectl apply -f .\deployment-usuarios.yaml
+14. kubectl apply -f .\svc-cursos.yaml
+15. kubectl apply -f .\svc-usuarios.yaml

@@ -1,0 +1,78 @@
+VPC		| vitual private cloud. red de comunicación
+EC2		| elastic compute cloud. donde se almacena las apps (maquinas virtuales)
+RDS		| relational database services. bases de datos o tambien existe DynamoDB
+S3		| simple storage service. servicio de almacenjamiento de archivos
+ACW 	| amazon cloud watch. servicio de monitoreo de las apps 
+ELB		| elastic load balancer. balanceador de carga
+EC2 Auto Scaling	| autoescaling.
+IAM		| identity and access management. seguriodad
+AZ		| vailability zone. son zonas de disponibilidad del servicio
+SSO 	|AWS Single Sign-On. servicio de proveedor de identidad
+IdP		| identificate provider. se refiere a un proveedeor de identificaciones
+AMI		| Amazon Machine Image. selecciona que SO se requiere
+ECS		| Elastic Container Service. servicio de contenedores para orquestar manualmente
+EKS 	| Elastic Kubernetes Service. servicio de kubernetes en la nube con autoconfiguración
+ACL 	| access control red.	lista de control de la red
+EBS 	| elastic block store. almacen de datos externo volume
+DDB		| document data base . con compatibilidad a mongo capacidad mas grande de almacenamiento
+QLBD	| quantum ledger database. base de datos mas grande donde es inmutable la data no se pueden borrar registros 
+ACF		| Amazon Cloud Front.	guarda cache de todo el contenido estatico
+RT53	|administración de nombres de dominio.
+EFS		| elastic file system.	crea un almacen de archivos
+==================== VENTAJAS ========================
+
+Pagar por uso
+Beneficiarse de las grandes economías de escala
+Dejar de hacer suposiciones sobre la capacidad
+Incrementar la velocidad y la agilidad
+Ahorrar costos
+Alcanzar escala mundial en minutos
+
+================ tener en cuenta ====================
+
+conformidad
+latencia
+precio
+
+aws ec2 describe-instances	| valida las instancias de EC2 que tengo.
+
+================ tipos de almacenamiento ====================
+Almacenamiento de archivos 	| individual.
+Almacenamiento de bloque 	| en bloques solo a sistemas de baja latencia.
+Almacenamiento de objetos	| para archivos estaticos sin estructuracion, fotos, imagenes etc.
+
+Almacen de instancias EC2		| Almacen de datos.
+
+Neptune graph database		| Base de datos con capacidad para bancos y grandes cantidades de datos.
+
+Aurora DB 					| Base de datos relacional de Amazon.
+Dynamo DB					| Base de datos no relacional de Amazon.}
+
+
+================ Las seis clases de almacenamiento de Amazon S3 ================
+
+estandar
+Intelligent-Tiering
+standard-infrequent access (s3 standard-IA)
+One Zone-infrequent access
+glacier
+glacier deeep archive
+
+
+
+Tipo de base de datos				Casos de uso										Servicio de AWS
+|Relacional.				Aplicaciones tradicionales, ERP, CRM, comercio electrónico	 	| Amazon RDS, Amazon Aurora, Amazon Redshift.
+|De clave-valor.			Aplicaciones web de gran tráfico, sistemas de comercio 
+							electrónico, aplicaciones de juegos						| Amazon DynamoDB.
+|En memoria.			Almacenamiento en caché, administración de sesiones,
+						tablas de posiciones de videojuegos, 
+						aplicaciones geoespaciales									| Amazon ElastiCache for Memcached, Amazon ElastiCache for Redis.
+|De documento.			Administración de contenido, catálogos, perfiles de usuarios	| Amazon DocumentDB (compatible con MongoDB).
+|De columna ancha.		Aplicaciones industriales de gran escala para 
+						el mantenimiento de equipos, la administración de flotas
+						y la optimización de rutas									| Amazon Keyspaces (para Apache Cassandra).
+|De gráficos.			Detección de fraude, redes sociales, motores de 
+						recomendación											| Amazon Neptune.
+|De serie temporal.		Aplicaciones de IoT, DevOps, telemetría industrial				| Amazon Timestream.
+|De libro mayor.			Sistemas de registro, cadena de suministro, registros,
+						transacciones bancarias									| Amazon QLDB.
