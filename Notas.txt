@@ -1,18 +1,8 @@
 
-
-JenkinsDigi1903$
-PlatziDigi1903$
-DigiOPW1903%
 ============================  matar proceos por terminal ============================
 
 netstat -aon | Findstr 8080
 taskkill /F /PID
-
-
-.============================ CORREOS ============================
-stiven.rodriguez@digitalprof-it.com  | https://serviciodecorreo.es/?_task=login&_err=session.
-e-sorodriguez@neoris.com 
-srodriguezs@externos.sanidad.gob.es
 
 ============================ ACTUALIZAR CONTRASEÑA DE MYSQL ============================
 C:\Program Files\MySQL\MySQL Server 8.0\bin>mysqld --defaults-file="C:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini" --init-file=C:\\contrasena.txt
